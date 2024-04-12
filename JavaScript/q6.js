@@ -4,4 +4,5 @@ const Array = [1, 2, 5, 10]
 
 function arrayDobrado() {
     const result = Array.map((x) => x*2);
+    return result(Array)
 }
