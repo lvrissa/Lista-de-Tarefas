@@ -1,8 +1,10 @@
 /* Escreva uma função em Javascript que recebe um array de números como argumento e retorna um novo array com o dobro de cada número. */
 
-const Array = [1, 2, 5, 10]
-
-function arrayDobrado() {
-    const result = Array.map((x) => x*2);
-    return result(Array)
+function dobrarLista(numeros) {
+  return numeros.map(function(numero) {
+    return numero * 2;
+  });
 }
+
+const lista = [1, 2, 8, 4, 5];
+console.log(dobrarLista(lista));

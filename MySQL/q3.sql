@@ -1,0 +1,1 @@
+/* Como você faria para buscar todos os registros de uma tabela chamada "usuarios" em MySQL que tenham idade maior que 18? /*
